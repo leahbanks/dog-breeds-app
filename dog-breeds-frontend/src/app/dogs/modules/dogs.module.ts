@@ -14,6 +14,7 @@ import {HttpClientModule} from "@angular/common/http"
   ], 
   imports: [
     CommonModule,
+    //imported to retrieve data from backend
     HttpClientModule
   ]
 })
