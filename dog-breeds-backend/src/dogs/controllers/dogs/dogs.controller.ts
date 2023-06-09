@@ -5,14 +5,13 @@ import { DogsService } from 'src/dogs/services/dogs.service';
 //everthing that is called with '/dogs' will hit this controller
 @Controller('dogs')
 export class DogsController {
+  //uses dependency injection to to retrieve the dogs service
+  constructor(private dogsService: DogsService) {}
 
-    //uses dependency injection to to retrieve the dogs service
-    constructor(private dogsService: DogsService) {}
-
-    //implement getDogs() method
-    //decorated with @Get to integrate with /dogs endpoint
-    @Get()
-    getDogs() {
-        return this.dogsService.getDogs();
-    }
+  //implement getDogs() method
+  //decorated with @Get to integrate with /dogs endpoint
+  @Get()
+  getDogs() {
+    return this.dogsService.getDogs();
+  }
 }
