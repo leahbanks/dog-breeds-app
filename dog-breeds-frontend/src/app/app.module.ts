@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DogsModule } from './dogs/dogs.module';
+import { DogsModule } from './dogs/modules/dogs.module';
 
 @NgModule({
   declarations: [

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DogsComponent } from './dogs.component';
+import { DogsComponent } from '../components/dogs.component';
 
 
 
@@ -8,8 +8,14 @@ import { DogsComponent } from './dogs.component';
   declarations: [
     DogsComponent
   ],
+  exports: [
+    DogsComponent
+  ], 
   imports: [
-    CommonModule
+    CommonModule,
   ]
 })
-export class DogsModule { }
+export class DogsModule { 
+
+}
+
