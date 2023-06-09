@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DogsComponent } from '../components/dogs.component';
+import {HttpClientModule} from "@angular/common/http"
 
 
 
@@ -13,6 +14,7 @@ import { DogsComponent } from '../components/dogs.component';
   ], 
   imports: [
     CommonModule,
+    HttpClientModule
   ]
 })
 export class DogsModule { 
