@@ -1,1 +1,32 @@
-<p>dogs works!</p>
+<main>
+    <section>
+      <h1 class="title">Find your <i>pawfect</i> match!</h1>
+      <h3 class="caption">
+        Swipe to browse through the different breeds and hover over/click the
+        photos to reveal our top tips when it comes to training your pup.
+      </h3>
+    </section>
+  
+    <section class="card-container">
+      <div class="DOGS" *ngFor="let dog of dogs$ | async">
+        <article class="flip-card">
+          <article class="flip-card-inner">
+            <article class="flip-card-front">
+              <p class="dog-breed">{{ dog.breed }}</p>
+              <img
+                [src]="dog.image"
+                alt="photo of {{ dog.breed }}"
+                width="300"
+                height="200"
+                class="dog-image"
+              />
+            </article>
+  
+            <article class="flip-card-back">
+              <p class="dog-bio">{{ dog.bio }}</p>
+            </article>
+          </article>
+        </article>
+      </div>
+    </section>
+  </main>
