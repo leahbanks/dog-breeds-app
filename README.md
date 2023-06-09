@@ -3,7 +3,7 @@
 
 ## 📝  Description 
 
-An Angular app built to display information about different dog breeds. The dog data is retrieved from a REST API built in NestJs.
+An Angular app built to display information about different dog breeds. The dog data is retrieved from a NestJS API.
 
 ### Features
 
