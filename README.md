@@ -12,7 +12,7 @@ An Angular app built to display information about different dog breeds. The dog 
 
 #### Screen shots of the app on desktop:
 
-<img width="500" height="250" alt="Screenshot of desktop home page" src="https://github.com/leahbanks/dog-breeds-app/assets/118462248/737a2710-7262-432c-a8fb-546226502841"> <img width="500" height="250" alt="Screenshot of dog card flipped to reveal training tips" src="https://github.com/leahbanks/dog-breeds-app/assets/118462248/f5a3a82f-e8f5-4dd1-8cba-3e3212de1577">
+<img width="400" height="200" alt="Screenshot of desktop home page" src="https://github.com/leahbanks/dog-breeds-app/assets/118462248/737a2710-7262-432c-a8fb-546226502841"> <img width="400" height="200" alt="Screenshot of dog card flipped to reveal training tips" src="https://github.com/leahbanks/dog-breeds-app/assets/118462248/f5a3a82f-e8f5-4dd1-8cba-3e3212de1577">
 
 #### Screen shots of the app on mobile:
 
